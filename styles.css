@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --first-color: rgb(75, 75, 119);
+  --second-color:rgb(65, 113, 161);
+  --body-color:#dfe9f2;
+  --title-color:#1c1c22;
+  --text-color:#58576b;
+
+--body-font:"Montserrat", sans-serif;
+--normal-font-size:1rem;
+--h3-font-size:1.2rem;
+--small-font-size:1rem;
+}
+
+*::before,::after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  overflow-x: hidden;
+}
+
+h3{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+.card{
+  max-width: 100%;
+}
+
+.bd-container{
+  max-width: 100%;
+  width: calc(100% - 3rem);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.card{
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 0;
+  background-color: var(--body-color);
+}
+
+.card__container{
+  display: grid;
+  gap: 1.5rem;
+
+}
+
+.card__glass {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 2.5rem;
+  background: linear-gradient(130deg,
+              rgba(251, 251, 254, .6),
+              rgba(251, 251, 254, .2));
+  box-shadow: inset 2px 2px 2px 1px rgba(251, 251, 254, .3),            
+              inset -2px -2px 2px 1px rgba(251, 251, 254, .2); 
+  border-radius: 1.5rem;
+    backdrop-filter: blur(10px);
+
+}
+
+.card__content {
+  position: relative;
+  z-index: 1; /* Ensure the content is above the blur effect */
+}
+.card__img {
+ height: 50%;
+ border-radius: 50%;
+ margin: 5%;
+ border: 2px solid #f4f4fb;
+}
+
+.card__data{
+  margin-bottom: 1.5rem;
+}
+
+.card__title{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.card__profession{
+ font-size: var(--small-font-size);
+ color: var(--text-color);
+ font-weight: 500;
+}
+
+.card__button{
+  display: inline-block;
+  background: linear-gradient(130deg,
+  rgba(171, 171, 232, 0.9),
+  rgba(251, 251, 254, .2));
+  padding: 0.75rem 1.5rem;
+  border-radius: .5rem;
+  color: var(--title-color);
+  font-weight: 500;
+  transition: .4s;
+}
+
+.card__circle{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: blue;
+}
