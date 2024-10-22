@@ -1,0 +1,38 @@
+[
+    {
+        "name": "nishank",
+        "profession": "web-dev",
+        "profession-2": "artist",
+        "profil-pic": "https://i.pinimg.com/236x/c3/9f/74/c39f74c7044d0d6287e8415040f5d0ff.jpg",
+        "insta-link": "insta-nish",
+        "fb-link": "fb-1",
+        "yt-link": "nothing"
+    },
+    {
+        "name": "shubh",
+        "profession": "artist",
+        "profession-2": "singer",
+        "profil-pic": "https://i.pinimg.com/236x/12/a2/f9/12a2f9a2b8a796e2f90d595a63d830d5.jpg",
+        "insta-link": "insta-subh",
+        "fb-link": "fb-2",
+        "yt-link": "yt-2"
+    },
+    {
+        "name": "pther-guy",
+        "profession": "writer",
+        "profession-2": "crazy",
+        "profil-pic": "https://i.pinimg.com/236x/0c/96/eb/0c96eb1477276b5887e2b267de8e59e9.jpg",
+        "insta-link": "insta-other",
+        "fb-link": "fb-3",
+        "yt-link": "nothing"
+    },
+    {
+        "name": "another-guy",
+        "profession": "writer",
+        "profession-2": "nothing",
+        "profil-pic": "https://i.pinimg.com/236x/b5/93/c7/b593c720220bc93a871622ca0f9d591b.jpg",
+        "insta-link": "insta-another",
+        "fb-link": "sb-4",
+        "yt-link": "nothing"
+    }
+]
